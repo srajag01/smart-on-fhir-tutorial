@@ -17379,6 +17379,7 @@ BBClient.authorize = function(params, errback){
   console.log("Line 17378 Srini... iss = ", urlParam("iss"));
   console.log("Line 17378 Srini... server = ", server);
   console.log("Line 17378 Srini... params.server = ", params.server);
+  alert(urlParam("iss"));
 	
   if (server){
     if (!params.server){
