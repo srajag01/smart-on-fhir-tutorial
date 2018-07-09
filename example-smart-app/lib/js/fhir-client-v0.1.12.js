@@ -17379,7 +17379,11 @@ BBClient.authorize = function(params, errback){
   console.log("Line 17378 Srini... iss = ", urlParam("iss"));
   console.log("Line 17378 Srini... server = ", server);
   console.log("Line 17378 Srini... params.server = ", params.server);
-  alert(urlParam("iss"));
+  alert("Alerts from smart-on-fhir-tutorial/example-smart-app/lib/js/fhir-client-v0.1.12.js Starts here...");
+  alert("Line 17382 Srini... iss = "+urlParam("iss"));
+  alert("Line 17382 Srini... fhirServiceUrl = "+urlParam("fhirServiceUrl"));
+  alert("Line 17382 Srini... server = "+server);
+  alert("Alerts from smart-on-fhir-tutorial/example-smart-app/lib/js/fhir-client-v0.1.12.js Ends here...");
 	
   if (server){
     if (!params.server){
